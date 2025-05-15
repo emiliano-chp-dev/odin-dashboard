@@ -15,7 +15,52 @@
   </head>
   <body>
     <header>
-      <!-- Header content -->
+      <!-- Search area -->
+      <section class="search_area">
+        <form action="_">
+          <label for="search_bar">
+            <span class="mdi mdi-magnify"></span>
+          </label>
+          <input type="search" name="search_bar" id="search_bar" />
+        </form>
+      </section>
+
+      <!-- Notification area -->
+      <section class="notification_area">
+        <span class="mdi mdi-bell-outline"></span>
+        <div class="profile_picture container">
+          <img
+            class="profile_picture avatar"
+            src="https://api.dicebear.com/7.x/bottts/svg?seed=felix"
+            alt="Your avatar"
+            width="30px"
+            height="30px"
+          />
+        </div>
+        <p class="user_name">Morgan Oakley</p>
+      </section>
+
+      <!-- Profile card -->
+      <section class="profile_card">
+        <img
+          class="profile_picture large"
+          src="https://api.dicebear.com/7.x/bottts/svg?seed=felix"
+          alt="Your avatar, larger."
+          width="60px"
+          height="60px"
+        />
+        <div class="profile_card handler">
+          <span>Hi there,</span>
+          Morgan Oakley (@morgan)
+        </div>
+      </section>
+
+      <!-- Social controls -->
+      <section class="controls social">
+        <button class="post">New</button>
+        <button class="upload">Upload</button>
+        <button class="share">Share</button>
+      </section>
     </header>
 
     <nav>
