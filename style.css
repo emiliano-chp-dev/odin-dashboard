@@ -179,3 +179,39 @@ input:focus {
 .controls.social {
   grid-area: controls;
 }
+
+/* Navigation bar elements */
+nav {
+  padding: 2em;
+  font-weight: 700;
+  color: #e4e6e8;
+}
+
+nav > section {
+  margin-bottom: 3em;
+}
+
+nav section.app_logo h1 {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+nav section.app_logo span {
+  margin-right: 0.2em;
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+ul li > span {
+  margin-right: 0.3em;
+}
