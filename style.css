@@ -32,7 +32,7 @@ body {
 /* Sections */
 header {
   grid-area: header;
-  padding: 1.5em 2em 1em 2em;
+  padding: 1.5em 4em 1em;
   background-color: #fff;
 
   display: grid;
@@ -64,6 +64,33 @@ form {
 
 label {
   font-size: 1.5em;
+}
+
+.notification_area {
+  justify-self: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.notification_area .profile_picture.container {
+  width: 46px;
+  height: 46px;
+  background-color: rgb(255, 213, 0);
+  border-radius: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification_area > span {
+  font-size: 1.5em;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
 }
 
 input {
