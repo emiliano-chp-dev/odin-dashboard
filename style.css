@@ -99,7 +99,8 @@ label {
   height: 40px;
 }
 
-.profile_card {
+.profile_card,
+.card.profile {
   display: flex;
   gap: 1em;
 }
@@ -114,6 +115,7 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .card.profile.large {
@@ -289,4 +291,7 @@ aside.news_area .wrapper .card.profiles {
 .announcement p {
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.card.profile {
 }
