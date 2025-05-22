@@ -180,7 +180,7 @@ input:focus {
   grid-area: controls;
 }
 
-/* Navigation bar elements */
+/* Navigation area */
 nav {
   padding: 2em;
   font-weight: 700;
@@ -214,4 +214,43 @@ ul li {
 
 ul li > span {
   margin-right: 0.3em;
+}
+
+/* Main area */
+main {
+  padding: 2.5em 2em 3em;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 1em;
+}
+
+main .showcase_area .wrapper h3 {
+  margin-bottom: 0.8em;
+}
+
+main section.showcase_area .wrapper .projects_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.5em;
+}
+
+.card.project {
+  border-left: 16px solid rgb(255, 196, 0);
+  border-radius: 16px;
+  padding: 2em;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card.project > h4 {
+  font-size: 1.2em;
+}
+
+ul.project_controls {
+  align-self: flex-end;
+  display: flex;
+  gap: 1em;
 }
